@@ -1,13 +1,10 @@
-:root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #111; background: #fff; }
-* { box-sizing: border-box; }
-body { margin: 0; font-size: 1rem; line-height: 1.5; }
-main { width: 100%; max-width: 26rem; margin: 0 auto; padding: 4rem 1.5rem; }
-h1 { margin: 0; font-size: 1.75rem; line-height: 1.25; font-weight: 600; }
-header p { margin: .5rem 0 2rem; color: #666; }
-a { color: inherit; touch-action: manipulation; overflow-wrap: anywhere; }
-.save { display: block; padding: .8rem 1rem; border: 1px solid #111; text-align: center; text-decoration: none; border-radius: 4px; }
-nav { margin-top: 1.25rem; }
-nav a { display: flex; align-items: center; min-height: 3.5rem; padding: .8rem 0; border-bottom: 1px solid #eee; text-underline-offset: .2em; }
-a:hover { background: #f5f5f5; }
-a:focus-visible { outline: 2px solid #111; outline-offset: 4px; }
-@media (min-width: 768px) { main { padding-top: 6rem; } }
+:root{color-scheme:light;font-family:'Avenir Next',Avenir,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#202020;background:#fafafa;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0;font-size:1rem;line-height:1.5;-webkit-font-smoothing:antialiased}
+main{width:100%;max-width:26rem;margin:0 auto;padding:3.5rem 1.5rem}
+header{text-align:center;margin-bottom:2rem}.avatar{display:grid;place-items:center;width:4rem;height:4rem;margin:0 auto 1.2rem;border:1px solid #dedede;border-radius:50%;background:#f0f0f0;font-size:1.1rem;font-weight:500;letter-spacing:.02em}
+h1{margin:0;font-size:1.6rem;line-height:1.3;font-weight:600;letter-spacing:-.045em}header p{margin:.35rem 0 0;font-size:.95rem;color:#707070}
+a{color:inherit;text-decoration:none;touch-action:manipulation}svg{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.save{display:flex;justify-content:center;align-items:center;gap:.65rem;padding:.9rem 1rem;background:#222;color:#fff;border:1px solid #222;border-radius:.8rem;font-weight:500;font-size:.95rem;min-height:3.3rem}
+nav{margin-top:1rem}.row{display:flex;align-items:center;gap:.85rem;border:1px solid #e5e5e5;background:#fff;border-radius:.8rem;padding:1rem;margin-top:.65rem;min-height:4.65rem}.icon{display:grid;place-items:center;width:1.6rem;flex-shrink:0;color:#555}.label{font-size:.95rem;font-weight:500;min-width:0}.detail{display:block;font-size:.8rem;font-weight:400;color:#727272;margin-top:.13rem;overflow-wrap:anywhere}.arrow{margin-left:auto;color:#888;font-size:1rem;flex-shrink:0}
+.socials{display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-top:.65rem}.socials a{display:flex;align-items:center;gap:.6rem;background:#fff;border:1px solid #e5e5e5;border-radius:.8rem;padding:1rem .85rem;min-height:3.6rem;font-size:.85rem;font-weight:500}.socials svg{width:1rem;height:1rem}.linkedin{font-family:Arial,sans-serif;font-size:1.05rem;font-weight:700;line-height:1}.save:hover{background:#3b3b3b}.row:hover,.socials a:hover{border-color:#bcbcbc;background:#fdfdfd}a:focus-visible{outline:2px solid #555;outline-offset:4px}
+@media(min-width:768px){main{margin:5rem auto;padding:2.5rem 2rem;background:#fff;border:1px solid #e9e9e9;border-radius:1.5rem}.avatar{background:#f6f6f6}.row,.socials a{background:#fcfcfc}}
